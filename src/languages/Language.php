@@ -16,9 +16,9 @@ abstract class Language
 	public const RUSSIAN = 'ru';
 	public const SPANISH = 'es';
 	public const POLISH = 'pl';
-    public const ITALIAN = 'it';
+	public const ITALIAN = 'it';
 
-    private const SUPPORTED_LANGUAGE_CLASSES = [
+	private const SUPPORTED_LANGUAGE_CLASSES = [
 		self::ENGLISH    => English::class,
 		self::ESTONIAN   => Estonian::class,
 		self::LATVIAN    => Latvian::class,
